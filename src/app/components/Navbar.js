@@ -13,7 +13,7 @@ const Navbar = () => {
       {burgerState && (
         <div className="fixed inset-0 z-50 overflow-hidden">
           <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="fixed inset-y-0 right-0 max-w-xs w-full bg-white z-50 shadow"  data-aos="slide-left">
+          <div className="fixed inset-y-0 right-0 max-w-xs w-full bg-red-200 z-50 shadow"  data-aos="slide-left">
             <div className="p-4">
               <button
                 className="text-gray-700 focus:outline-none"
