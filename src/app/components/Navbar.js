@@ -1,9 +1,6 @@
 "use client";
 import { useState } from "react";
-import 'aos/dist/aos.css'; 
-import AOS from 'aos';
-
-AOS.init();
+import Menu from "./Menu";
 
 const Navbar = () => {
   const [burgerState, setBurgerState] = useState(false);
@@ -13,7 +10,7 @@ const Navbar = () => {
       {burgerState && (
         <div className="fixed inset-0 z-50 overflow-hidden">
           <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="fixed inset-y-0 right-0 max-w-xs w-full bg-red-200 z-50 shadow"  data-aos="slide-left">
+          <div className="fixed inset-y-0 right-0 max-w-xs w-full bg-red-200 z-50 shadow transition-transform duration-300 transform translate-x-full md:translate-x-0">
             <div className="p-4">
               <button
                 className="text-gray-700 focus:outline-none"
@@ -34,12 +31,7 @@ const Navbar = () => {
                 </svg>
               </button>
             </div>
-            <div className="py-6">
-              <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Home</a>
-              <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">About</a>
-              <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Services</a>
-              <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Contact</a>
-            </div>
+            <Menu/>
           </div>
         </div>
       )}
@@ -53,7 +45,7 @@ const Navbar = () => {
           <div>
             <button
               className="text-white focus:outline-none"
-              onClick={() => setBurgerState(true)}
+              onClick={() => setBurgerState(!burgerState)}
             >
               <svg
                 className="h-6 w-6"
