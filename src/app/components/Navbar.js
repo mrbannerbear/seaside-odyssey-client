@@ -38,6 +38,7 @@ const Navbar = () => {
 
       <nav className="p-4 md:px-12 md:py-6 absolute w-full h-fit z-40">
         <div className="container mx-auto flex justify-between items-center">
+            <div></div>
           <div className="flex items-center">
             <img src="logo.png" alt="Logo" className="h-20" />
           </div>
