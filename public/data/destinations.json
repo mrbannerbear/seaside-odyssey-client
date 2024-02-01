@@ -1,0 +1,129 @@
+[
+    {
+      "name": "Morocco",
+      "image": "morocco.jpg",
+      "description": "Discover the exotic beauty of Morocco with its bustling markets, vibrant culture, and stunning landscapes. Explore ancient cities like Marrakech and Fes, wander through the maze-like streets of the medinas, and experience the rich history and traditions of this North African gem.",
+      "highlights": [
+        "Explore the colorful souks of Marrakech",
+        "Visit the historic city of Fes",
+        "Take a camel trek through the Sahara Desert",
+        "Experience the vibrant street food scene"
+      ],
+      "year": 2024,
+      "pricing": {
+        "base": 2000,
+        "grand": 3500,
+        "queen": 5000,
+        "odyssey_royale": 7500
+      }
+    },
+    {
+      "name": "Greece",
+      "image": "greece.jpg",
+      "description": "Embark on a journey through ancient history and breathtaking beauty in Greece. From the iconic ruins of Athens to the idyllic islands of Santorini and Mykonos, Greece offers a perfect blend of history, culture, and natural wonders.",
+      "highlights": [
+        "Admire the Parthenon atop the Acropolis",
+        "Sail through the stunning caldera of Santorini",
+        "Relax on the pristine beaches of Mykonos",
+        "Indulge in delicious Greek cuisine"
+      ],
+      "year": 2024,
+      "pricing": {
+        "base": 2500,
+        "grand": 4000,
+        "queen": 5500,
+        "odyssey_royale": 8000
+      }
+    },
+    {
+      "name": "Norway",
+      "image": "norway.jpg",
+      "description": "Experience the awe-inspiring landscapes of Norway, from towering fjords to majestic mountains. Cruise along the scenic coastline, witness the Northern Lights dancing in the sky, and immerse yourself in the rich Norse heritage and culture.",
+      "highlights": [
+        "Cruise through the breathtaking Norwegian fjords",
+        "Explore charming coastal towns like Bergen",
+        "Embark on a thrilling husky sledding adventure",
+        "Marvel at the natural beauty of the Lofoten Islands"
+      ],
+      "year": 2024,
+      "pricing": {
+        "base": 2800,
+        "grand": 4300,
+        "queen": 5800,
+        "odyssey_royale": 8300
+      }
+    },
+    {
+      "name": "Japan",
+      "image": "japan.jpg",
+      "description": "Discover the unique blend of tradition and modernity in Japan. From the bustling streets of Tokyo to the serene temples of Kyoto, Japan offers a fascinating mix of ancient culture, cutting-edge technology, and natural beauty.",
+      "highlights": [
+        "Explore the vibrant neighborhoods of Tokyo",
+        "Visit the iconic temples and shrines of Kyoto",
+        "Experience the tranquility of Japanese gardens",
+        "Indulge in delicious sushi and ramen"
+      ],
+      "year": 2025,
+      "pricing": {
+        "base": 3000,
+        "grand": 4500,
+        "queen": 6000,
+        "odyssey_royale": 8500
+      }
+    },
+    {
+      "name": "Australia",
+      "image": "australia.jpg",
+      "description": "Experience the wonders of the Land Down Under in Australia. From the vibrant city life of Sydney to the awe-inspiring landscapes of the Outback, Australia offers a diverse range of experiences for every traveler.",
+      "highlights": [
+        "Explore the iconic Sydney Opera House",
+        "Snorkel the Great Barrier Reef",
+        "Discover the stunning beaches of the Gold Coast",
+        "Encounter unique wildlife in the Australian Outback"
+      ],
+      "year": 2025,
+      "pricing": {
+        "base": 3200,
+        "grand": 4700,
+        "queen": 6200,
+        "odyssey_royale": 8700
+      }
+    },
+    {
+      "name": "Italy",
+      "image": "italy.jpg",
+      "description": "Immerse yourself in the rich history, culture, and cuisine of Italy. From the ancient ruins of Rome to the picturesque villages of the Amalfi Coast, Italy captivates visitors with its timeless beauty and charm.",
+      "highlights": [
+        "Marvel at the art and architecture of Florence",
+        "Indulge in authentic Italian cuisine in Rome",
+        "Cruise along the stunning Amalfi Coast",
+        "Explore the charming canals of Venice"
+      ],
+      "year": 2025,
+      "pricing": {
+        "base": 2800,
+        "grand": 4300,
+        "queen": 5800,
+        "odyssey_royale": 8300
+      }
+    },
+    {
+        "name": "The Great African Tour",
+        "image": "african_tour.jpg",
+        "description": "Embark on an unforgettable journey through Africa and experience the rich diversity of its landscapes, wildlife, and cultures. From the ancient wonders of Egypt to the vibrant cities of South Africa, this tour offers a once-in-a-lifetime adventure.",
+        "highlights": [
+          "Explore the pyramids of Giza in Egypt",
+          "Go on safari in the Serengeti National Park",
+          "Visit the Victoria Falls in Zambia/Zimbabwe",
+          "Experience the vibrant culture of Cape Town"
+        ],
+        "year": 2026,
+        "pricing": {
+          "base": 3500,
+          "grand": 5000,
+          "queen": 6500,
+          "odyssey_royale": 9000
+        }
+      }
+  ]
+  

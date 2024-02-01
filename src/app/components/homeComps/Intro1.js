@@ -15,6 +15,9 @@ const Intro1 = () => {
                 Explore hidden coves, bask in the sun on spacious decks, and immerse yourself in the beauty of the open sea. 
                 All that en route to your favorite destinations.
                 </p>
+                <p>
+                    <button className="underline py-3 text-gray-600">About Us</button>
+                </p>
              </div>
         </div>
     );
