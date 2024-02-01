@@ -3,7 +3,7 @@ import { BsTwitterX } from "react-icons/bs";
 
 const Footer = () => {
     return (
-<footer class="bg-red-200 p-8">
+<footer class="bg-red-50 p-8">
   <div class="container mx-auto flex flex-wrap justify-around">
 
     <div class="w-full sm:w-auto mb-4 sm:mb-0">

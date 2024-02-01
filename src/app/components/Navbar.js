@@ -10,8 +10,8 @@ const Navbar = () => {
       {burgerState && (
         <div className="fixed inset-0 z-50 overflow-hidden">
           <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="fixed inset-y-0 right-0 max-w-xs w-full bg-red-200 z-50 shadow transition-transform duration-300 transform translate-x-full md:translate-x-0">
-            <div className="p-4">
+          <div className="fixed inset-y-0 right-0 max-w-xs w-full bg-red-50/90 z-50 shadow transition-transform duration-300 transform translate-x-full md:translate-x-0">
+           {<div className="p-4">
               <button
                 className="text-gray-700 focus:outline-none"
                 onClick={() => setBurgerState(false)}
@@ -30,7 +30,7 @@ const Navbar = () => {
                   />
                 </svg>
               </button>
-            </div>
+            </div>}
             <Menu/>
           </div>
         </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
           </div>
 
           <div>
-            <button
+            {!burgerState && <button
               className="text-white focus:outline-none"
               onClick={() => setBurgerState(!burgerState)}
             >
@@ -61,7 +61,7 @@ const Navbar = () => {
                   d="M4 6h16M4 12h16m-7 6h7"
                 ></path>
               </svg>
-            </button>
+            </button>}
           </div>
         </div>
       </nav>
