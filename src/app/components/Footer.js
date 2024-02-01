@@ -45,7 +45,7 @@ const Footer = () => {
     </div>
   </div>
   <div class="text-center text-xs text-gray-600 pt-8">
-    © {new Date().getFullYear()} Seaside Odyssey All rights reserved
+    © {new Date().getFullYear()} Seaside Odyssey. All rights reserved
   </div>
 </footer>
 
