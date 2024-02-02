@@ -1,6 +1,7 @@
 import Banner from "./components/homeComps/Banner";
 import Destinations from "./components/homeComps/Destinations";
 import Intro1 from "./components/homeComps/Intro1";
+import Ships from "./components/homeComps/Ships";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
     <Banner/>
     <Intro1/>
     <Destinations/>
+    <Ships/>
     </>
   );
 }

@@ -68,7 +68,7 @@ const Destinations = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="mySwiper min-h-screen"
       >
         {destinations.map(destination => (<SwiperSlide>
           <div className="max-w-md mx-auto shadow-lg">
