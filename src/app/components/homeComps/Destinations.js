@@ -34,7 +34,7 @@ const Destinations = () => {
         className="mySwiper hidden lg:fixed h-[650px]"
       >
         {destinations.map(destination => (<SwiperSlide>
-          <div className="max-w-md mx-auto shadow-lg">
+          <div className="max-w-md mx-auto shadow-lg bg-red-50">
             <img
               className="w-full"
               src={destination.image}

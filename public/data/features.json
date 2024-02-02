@@ -1,0 +1,28 @@
+[
+    {
+      "logo": "fine-dining.png",
+      "title": "Fine Dining",
+      "description": "Indulge in exquisite culinary experiences with three restaurants catering to diverse preferences, including specialized menus for religious dietary restrictions."
+    },
+    {
+      "logo": "childrens-zone.png",
+      "title": "Children's Zone",
+      "description": "Entertain young travelers with a dedicated children's zone featuring interactive games, supervised activities, and age-appropriate entertainment."
+    },
+    {
+      "logo": "turkish-bath.png",
+      "title": "Turkish Bath and Spa",
+      "description": "Relax and rejuvenate in a luxurious Turkish bath and spa inspired by the opulence of 1920s ocean liners, offering traditional hammam rituals and modern wellness treatments."
+    },
+    {
+      "logo": "world-class-entertainment.png",
+      "title": "World-Class Entertainment",
+      "description": "Experience captivating performances by dazzling shows, and immersive productions that promise memorable evenings of entertainment and culture."
+    },
+    {
+      "logo": "virtual-reality-experience.png",
+      "title": "VR Exploration",
+      "description": "Embark on virtual adventures to exotic destinations and historical landmarks through immersive virtual reality exploration pods, offering captivating experiences for curious travelers."
+    }
+  ]
+  
