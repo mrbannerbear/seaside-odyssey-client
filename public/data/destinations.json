@@ -1,7 +1,7 @@
 [
     {
       "name": "Morocco",
-      "image": "morocco.jpg",
+      "image": "https://images.unsplash.com/photo-1538230575309-59dfc388ae36?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Discover the exotic beauty of Morocco with its bustling markets, vibrant culture, and stunning landscapes. Explore ancient cities like Marrakech and Fes, wander through the maze-like streets of the medinas, and experience the rich history and traditions of this North African gem.",
       "highlights": [
         "Explore the colorful souks of Marrakech",
@@ -19,7 +19,7 @@
     },
     {
       "name": "Greece",
-      "image": "greece.jpg",
+      "image": "https://images.unsplash.com/photo-1580502304784-8985b7eb7260?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Embark on a journey through ancient history and breathtaking beauty in Greece. From the iconic ruins of Athens to the idyllic islands of Santorini and Mykonos, Greece offers a perfect blend of history, culture, and natural wonders.",
       "highlights": [
         "Admire the Parthenon atop the Acropolis",
@@ -37,8 +37,8 @@
     },
     {
       "name": "Norway",
-      "image": "norway.jpg",
-      "description": "Experience the awe-inspiring landscapes of Norway, from towering fjords to majestic mountains. Cruise along the scenic coastline, witness the Northern Lights dancing in the sky, and immerse yourself in the rich Norse heritage and culture.",
+      "image": "https://images.unsplash.com/photo-1520338801623-6b88fe32bbf2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Experience the awe-inspiring landscapes of Norway, from towering fjords to majestic mountains. Cruise along the scenic coastline, witness the Northern Lights dancing in the sky, and immerse yourself in one of world's most scenic places.",
       "highlights": [
         "Cruise through the breathtaking Norwegian fjords",
         "Explore charming coastal towns like Bergen",
@@ -55,7 +55,7 @@
     },
     {
       "name": "Japan",
-      "image": "japan.jpg",
+      "image": "https://images.unsplash.com/photo-1578215560516-474d84f62ec3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Discover the unique blend of tradition and modernity in Japan. From the bustling streets of Tokyo to the serene temples of Kyoto, Japan offers a fascinating mix of ancient culture, cutting-edge technology, and natural beauty.",
       "highlights": [
         "Explore the vibrant neighborhoods of Tokyo",
@@ -73,7 +73,7 @@
     },
     {
       "name": "Australia",
-      "image": "australia.jpg",
+      "image": "https://images.unsplash.com/photo-1526958977630-bc61b30a2009?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Experience the wonders of the Land Down Under in Australia. From the vibrant city life of Sydney to the awe-inspiring landscapes of the Outback, Australia offers a diverse range of experiences for every traveler.",
       "highlights": [
         "Explore the iconic Sydney Opera House",
@@ -91,7 +91,7 @@
     },
     {
       "name": "Italy",
-      "image": "italy.jpg",
+      "image": "https://images.unsplash.com/photo-1517988368819-88f4eacfef44?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Immerse yourself in the rich history, culture, and cuisine of Italy. From the ancient ruins of Rome to the picturesque villages of the Amalfi Coast, Italy captivates visitors with its timeless beauty and charm.",
       "highlights": [
         "Marvel at the art and architecture of Florence",
@@ -109,7 +109,7 @@
     },
     {
         "name": "The Great African Tour",
-        "image": "african_tour.jpg",
+        "image": "https://images.unsplash.com/photo-1489493887464-892be6d1daae?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Embark on an unforgettable journey through Africa and experience the rich diversity of its landscapes, wildlife, and cultures. From the ancient wonders of Egypt to the vibrant cities of South Africa, this tour offers a once-in-a-lifetime adventure.",
         "highlights": [
           "Explore the pyramids of Giza in Egypt",

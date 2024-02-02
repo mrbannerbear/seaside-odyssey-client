@@ -21,40 +21,80 @@ const Destinations = () => {
     const [destinations, setDestinations] = useState([])
 
   return (
-    <div className="min-h-screen">
-      <Swiper
+    <div className="min-h-screen bg-red-50/50 pt-12">
+        <h2 className="text-center text-3xl text-red-900">Destinations for 2024, 2025, 2026</h2>
+        <div className="hidden lg:block px-12 pt-6 pb-12">
+        <Swiper
         slidesPerView={3}
         spaceBetween={30}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper min-h-[50vh]"
+        className="mySwiper hidden lg:fixed h-[650px]"
       >
-        {destinations.map(destination => (<SwiperSlide className="min-h-[50vh]">
-          <div className="max-w-md mx-auto rounded overflow-hidden shadow-lg">
+        {destinations.map(destination => (<SwiperSlide>
+          <div className="max-w-md mx-auto shadow-lg">
             <img
               className="w-full"
               src={destination.image}
               alt={destination.name}
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">{destination.name}</div>
-              <p className="text-gray-700 text-base">
+              <div className="text-2xl mb-2 text-red-900">{destination.name}</div>
+              <p className="text-gray-700 text-base h-[160px]">
                 {destination.description}
               </p>
               <p className="text-gray-600 text-sm mt-2">
-                Year: {destination.year}
+                {destination.year}
               </p>
             </div>
             <div className="px-6 py-4">
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+              <button className="text-red-900 underline">
                 More Info
               </button>
             </div>
           </div>
         </SwiperSlide>))}
       </Swiper>
+        </div>
+
+
+      <div className="lg:hidden">
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        {destinations.map(destination => (<SwiperSlide>
+          <div className="max-w-md mx-auto shadow-lg">
+            <img
+              className="w-full"
+              src={destination.image}
+              alt={destination.name}
+            />
+            <div className="px-6 py-4">
+              <div className="text-2xl mb-2 text-red-900">{destination.name}</div>
+              <p className="text-gray-700 text-base h-[170px]">
+                {destination.description}
+              </p>
+              <p className="text-gray-600 text-sm mt-2">
+                {destination.year}
+              </p>
+            </div>
+            <div className="px-6 py-4">
+              <button className="text-red-900 underline ">
+                More Info
+              </button>
+            </div>
+          </div>
+        </SwiperSlide>))}
+      </Swiper>
+      </div>
     </div>
   );
 };
